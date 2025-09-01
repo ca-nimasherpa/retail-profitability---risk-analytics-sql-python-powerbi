@@ -40,7 +40,7 @@ This project addresses these challenges by creating an analytics framework to:
 ## 3. Project Workflow
 
 ### 3.1 Data Ingestion & Management
-- Ingested large CSV datasets (up to **2GB**) into an **SQLite database**.  
+- Ingested large CSV datasets (more than **2GB**) into an **SQLite database**.  
 - Developed a **Python ingestion pipeline** using `pandas` + `SQLAlchemy` for automation.  
 - Implemented **logging** to monitor execution and handle errors.  
 
@@ -58,7 +58,7 @@ This project addresses these challenges by creating an analytics framework to:
 - Fixed inconsistencies (e.g., data type mismatches).  
 - Engineered new features:  
   - **Profit Margin %** = Gross Profit ÷ Total Sales.  
-  - **Unsold Capital** = Value of unsold inventory.  
+  - **Unsold Capital** = (Total purchase QTy - Total Sales QTY) * Purchase price per unit.  
 
 ### 3.5 Advanced Analytics & Hypothesis Testing
 - Segmented vendors into **top vs. low-performing** groups.  
