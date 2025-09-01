@@ -19,7 +19,7 @@
 ---
 
 ## 1. Project Overview
-This project is an **end-to-end Profitability and Risk Analytics and solution** designed for the retail/wholesale sector.  
+This project is an **end-to-end Profitability & Risk Analytics and solution** designed for the retail/wholesale sector.  
 It leverages **SQL, Python, and Power BI** to analyze purchases, sales, and inventory data, with the ultimate goal of improving **profitability, reducing risk, and optimizing vendor relationships**.
 
 ---
